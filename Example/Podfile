@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DLChain_Example' do
+  pod 'DLChain', :path => '../'
+
+  target 'DLChain_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

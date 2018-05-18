@@ -7,7 +7,7 @@
 //
 
 #import "DLViewController.h"
-
+#import "DLChain.h"
 @interface DLViewController ()
 
 @end
@@ -17,7 +17,17 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    UIButton *btn = [[UIButton alloc]init];
+    btn.frame = CGRectMake(0, 0, 80, 80);
+    btn.center = self.view.center;
+    btn.titleParamm(@"wtf", 18.0f, UIColor.whiteColor, UIControlStateNormal).backColor(UIColor.redColor);
+    [self.view addSubview:btn];
+    
+    UILabel *label = [[UILabel alloc]init];
+    label   .DLFrame(CGRectMake(40, 40, 100, 40))
+    .DLTextSet(@"dwapjopojpdq", UIColor.greenColor, [UIFont systemFontOfSize:18.0f])
+    .DLBackColor(UIColor.blueColor);
+    [self.view addSubview:label];
 }
 
 - (void)didReceiveMemoryWarning

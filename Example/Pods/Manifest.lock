@@ -1,0 +1,16 @@
+PODS:
+  - DLChain (0.1.0)
+
+DEPENDENCIES:
+  - DLChain (from `../`)
+
+EXTERNAL SOURCES:
+  DLChain:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DLChain: 66ef8f2b2b88fa89cea7b8fdd9d676eb28196dea
+
+PODFILE CHECKSUM: 34d206754fdc3fc639e4f6e4397219f23ecb632f
+
+COCOAPODS: 1.5.0

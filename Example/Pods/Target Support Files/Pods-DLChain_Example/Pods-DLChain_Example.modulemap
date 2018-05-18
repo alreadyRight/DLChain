@@ -1,0 +1,6 @@
+framework module Pods_DLChain_Example {
+  umbrella header "Pods-DLChain_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

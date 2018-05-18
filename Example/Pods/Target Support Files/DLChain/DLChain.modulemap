@@ -1,0 +1,6 @@
+framework module DLChain {
+  umbrella header "DLChain-umbrella.h"
+
+  export *
+  module * { export * }
+}
